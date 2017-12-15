@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="newser.AcceptanceTestSuite" time="577.734" tests="81" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Execution\trail\OCOMHP"/>
+    <property name="webdriver.driver" value="edge"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="injected.tags" value="browser:edge"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\arpannee\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;C:\Program Files\nodejs;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\platforms;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\arpannee\AppData\Local\Programs\Python\Python36-32;C:\Users\arpannee\AppData\Local\Microsoft\WindowsApps;C:\Users\arpannee\AppData\Roaming\npm;C:\Users\arpannee\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\arpannee"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="arpannee"/>
+    <property name="java.class.path" value="D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin\..\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify -Dcontext=edge -Dwebdriver.driver=edge -Dinjected.tags=browser:edge"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="context" value="edge"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.081"/>
+  <testcase name="Given User on the home page" classname="newser.steps.serenity.CarouselBannerDefinition" time="18.368"/>
+  <testcase name="When User navigates to About Oracle" classname="newser.steps.serenity.AboutOracleCB50Definition" time="4.566"/>
+  <testcase name="Then User must see 4 featured areas" classname="newser.steps.serenity.AboutOracleCB50Definition" time="1.132"/>
+  <testcase name="Scenario: Featured area" classname="Scenario: Featured area" time="1.47"/>
+  <testcase name="Given User on the home page​" classname="newser.steps.serenity.CarouselBannerDefinition" time="14.161"/>
+  <testcase name="When User see featured area" classname="newser.steps.serenity.AboutOracleCB50Definition" time="4.617"/>
+  <testcase name="Then User must navigate to the featured page" classname="newser.steps.serenity.AboutOracleCB50Definition" time="54.9"/>
+  <testcase name="Scenario: Featured area Page" classname="Scenario: Featured area Page" time="55.311"/>
+  <testcase name="AboutOracleCB50.story" classname="AboutOracleCB50.story" time="58.079"/>
+  <testcase name="Given User on the home page​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="11.297"/>
+  <testcase name="When User scrolls down" classname="newser.steps.serenity.Acceleratorcn24Definition" time="3.203"/>
+  <testcase name="Then User must see top actions links" classname="newser.steps.serenity.Acceleratorcn24Definition" time="0.646"/>
+  <testcase name="Scenario: Top Actions - Scroll down the page to view Top Actions" classname="Scenario: Top Actions - Scroll down the page to view Top Actions" time="0.868"/>
+  <testcase name="Given User on the home page​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="9.462"/>
+  <testcase name="When User view accelerator" classname="newser.steps.serenity.Acceleratorcn24Definition" time="1.486"/>
+  <testcase name="Then each top actions must have an icon and label below it" classname="newser.steps.serenity.Acceleratorcn24Definition" time="8.431"/>
+  <testcase name="Scenario: Top Actions - links and icons" classname="Scenario: Top Actions - links and icons" time="8.658"/>
+  <testcase name="Given User on the home page​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="10.577"/>
+  <testcase name="When User hovers over &apos;More&apos; menu" classname="newser.steps.serenity.Acceleratorcn24Definition" time="9.383"/>
+  <testcase name="Then menu dropdown panel must open showing options" classname="newser.steps.serenity.Acceleratorcn24Definition" time="0.551"/>
+  <testcase name="Scenario: Top Actions - “More” menu" classname="Scenario: Top Actions - “More” menu" time="0.695"/>
+  <testcase name="Given User on the home page​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="14.489"/>
+  <testcase name="When User hovers over &apos;More&apos; menu​" classname="newser.steps.serenity.Acceleratorcn24Definition" time="9.318"/>
+  <testcase name="Then User clicks option on menu" classname="newser.steps.serenity.Acceleratorcn24Definition" time="0.834"/>
+  <testcase name="Then User checks must navigate to appropriate page" classname="newser.steps.serenity.Acceleratorcn24Definition" time="3.319"/>
+  <testcase name="Scenario: Top Actions – expanded “More” menu" classname="Scenario: Top Actions – expanded “More” menu" time="3.518"/>
+  <testcase name="Given User on the home page​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="10.387"/>
+  <testcase name="When User hovers over &apos;More&apos; menu​​" classname="newser.steps.serenity.Acceleratorcn24Definition" time="9.515"/>
+  <testcase name="Then User points the mouse away from the dropdown" classname="newser.steps.serenity.Acceleratorcn24Definition" time="0.71"/>
+  <testcase name="Then the dropdown panel must close" classname="newser.steps.serenity.Acceleratorcn24Definition" time="0.634"/>
+  <testcase name="Scenario: Top Actions – hover over state - “More” menu" classname="Scenario: Top Actions – hover over state - “More” menu" time="0.813"/>
+  <testcase name="AcceleratorCN24.story" classname="AcceleratorCN24.story" time="4.855"/>
+  <testcase name="Given User on the home page​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="10.258"/>
+  <testcase name="When User see 3 or more than 3 story slides" classname="newser.steps.serenity.CarouselBannerDefinition" time="1.647"/>
+  <testcase name="Then User clicks on CTA in each slide in the story slide must navigate to appropriate page" classname="newser.steps.serenity.CarouselBannerDefinition" time="83.947"/>
+  <testcase name="Scenario: Carousel Banner - View each story slide" classname="Scenario: Carousel Banner - View each story slide" time="84.558"/>
+  <testcase name="Given User on the home page​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="12.151"/>
+  <testcase name="When Story slide is in view" classname="newser.steps.serenity.CarouselBannerDefinition" time="1.644"/>
+  <testcase name="Then corresponding place dot turn red in color" classname="newser.steps.serenity.CarouselBannerDefinition" time="1.403"/>
+  <testcase name="Scenario: Carousel Banner - Stories auto rotate" classname="Scenario: Carousel Banner - Stories auto rotate" time="1.69"/>
+  <testcase name="Given User on the home page​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="9.789"/>
+  <testcase name="When User clicks on the left nav arrows" classname="newser.steps.serenity.CarouselBannerDefinition" time="4.586"/>
+  <testcase name="Then slide navigates to previous story" classname="newser.steps.serenity.CarouselBannerDefinition" time="2.104"/>
+  <testcase name="When User clicks on the right nav arrows" classname="newser.steps.serenity.CarouselBannerDefinition" time="4.948"/>
+  <testcase name="Then slide navigates to next story" classname="newser.steps.serenity.CarouselBannerDefinition" time="0.85"/>
+  <testcase name="Scenario: Carousel Banner - Navigate through stories using nav arrows" classname="Scenario: Carousel Banner - Navigate through stories using nav arrows" time="1.047"/>
+  <testcase name="Given User on the home page​​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="9.572"/>
+  <testcase name="When User hovers over left nav arrows" classname="newser.steps.serenity.CarouselBannerDefinition" time="3.353"/>
+  <testcase name="Then User see the background of the arrow must turn gray" classname="newser.steps.serenity.CarouselBannerDefinition" time="3.636"/>
+  <testcase name="Then User hovers over right nav arrows also" classname="newser.steps.serenity.CarouselBannerDefinition" time="2.603"/>
+  <testcase name="Then User see the background of the arrow must turn Gray" classname="newser.steps.serenity.CarouselBannerDefinition" time="1.721"/>
+  <testcase name="Scenario: Carousel Banner - Nav arrows - Hover over state" classname="Scenario: Carousel Banner - Nav arrows - Hover over state" time="1.954"/>
+  <testcase name="Given User on the home page​​​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="11.019"/>
+  <testcase name="When User hovers over place dots" classname="newser.steps.serenity.CarouselBannerDefinition" time="3.781"/>
+  <testcase name="Then place dot must turn white in color" classname="newser.steps.serenity.CarouselBannerDefinition" time="1.208"/>
+  <testcase name="Scenario: Carousel Banner - Place dots - Hover over state" classname="Scenario: Carousel Banner - Place dots - Hover over state" time="1.398"/>
+  <testcase name="Given User on the home page​​​​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="9.967"/>
+  <testcase name="When User hovers over CTA button" classname="newser.steps.serenity.CarouselBannerDefinition" time="4.84"/>
+  <testcase name="Then User see the background of the button must turn blue in color" classname="newser.steps.serenity.CarouselBannerDefinition" time="5.68"/>
+  <testcase name="Scenario: Carousel Banner - CTA button - Hover over state" classname="Scenario: Carousel Banner - CTA button - Hover over state" time="6.219"/>
+  <testcase name="CarouselBannerHP10.story" classname="CarouselBannerHP10.story" time="8.659"/>
+  <testcase name="Given User on the home page​​​​​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="12.713"/>
+  <testcase name="When User hover on CTA button" classname="newser.steps.serenity.DemandSupportCB27v4Definition" time="5.372"/>
+  <testcase name="Then User must see backgroundcolor change to white" classname="newser.steps.serenity.DemandSupportCB27v4Definition" time="4.673"/>
+  <testcase name="Scenario: CTA Background color" classname="Scenario: CTA Background color" time="4.85"/>
+  <testcase name="Given User on the home page​​​​​​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="9.969"/>
+  <testcase name="When User clicks on CTA button" classname="newser.steps.serenity.DemandSupportCB27v4Definition" time="4.597"/>
+  <testcase name="Then User must navigate to the events page" classname="newser.steps.serenity.DemandSupportCB27v4Definition" time="6.602"/>
+  <testcase name="Scenario: Navigate to event page" classname="Scenario: Navigate to event page" time="6.785"/>
+  <testcase name="DemandSupportCB27v4.story" classname="DemandSupportCB27v4.story" time="9.014"/>
+  <testcase name="Given User on the home page​​​​​​​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="9.25"/>
+  <testcase name="When User hovers over the links" classname="newser.steps.serenity.SegmentDivingCB25v2Definition" time="28.706"/>
+  <testcase name="Then the link must be underlined" classname="newser.steps.serenity.SegmentDivingCB25v2Definition" time="1.336"/>
+  <testcase name="Scenario: Hoverover the hyperlinks" classname="Scenario: Hoverover the hyperlinks" time="1.787"/>
+  <testcase name="Given User on the home page​​​​​​​​​​​​​​​​" classname="newser.steps.serenity.CarouselBannerDefinition" time="9.933"/>
+  <testcase name="When User clicks on segment link" classname="newser.steps.serenity.SegmentDivingCB25v2Definition" time="5.207"/>
+  <testcase name="Then User must navigate to the segment page" classname="newser.steps.serenity.SegmentDivingCB25v2Definition" time="8.028"/>
+  <testcase name="Scenario: Navigate to segment page" classname="Scenario: Navigate to segment page" time="8.542"/>
+  <testcase name="SegmentDivingCB25v2.story" classname="SegmentDivingCB25v2.story" time="12.596"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0"/>
+</testsuite>

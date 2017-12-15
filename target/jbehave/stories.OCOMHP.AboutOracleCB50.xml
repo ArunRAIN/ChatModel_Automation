@@ -1,0 +1,19 @@
+<story path="stories/OCOMHP/AboutOracleCB50.story" title="About Oracle CB50">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">know about Oracle</inOrderTo>
+  <asA keyword="As a">user</asA>
+  <iWantTo keyword="I want to">see 4 featured areas
+
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Featured area">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User navigates to About Oracle</step>
+<step outcome="successful">Then User must see 4 featured areas</step>
+</scenario>
+<scenario keyword="Scenario:" title="Featured area Page">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User see featured area</step>
+<step outcome="successful">Then User must navigate to the featured page</step>
+</scenario>
+</story>

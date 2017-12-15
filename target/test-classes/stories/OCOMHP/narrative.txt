@@ -1,0 +1,3 @@
+In order to view stories
+As a user
+I want to view slides auto rotating
