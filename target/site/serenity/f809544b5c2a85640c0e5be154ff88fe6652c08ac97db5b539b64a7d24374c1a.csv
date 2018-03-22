@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Chat","Chat icon","SUCCESS","2018-03-15T15:01:17.865+05:30[Asia/Calcutta]","0.0","17.18"
+"Chat","Chat icon global header","SUCCESS","2018-03-19T16:33:44.146+05:30[Asia/Calcutta]","0.0","26.72"
+"Chat","Chat icon side wall","SUCCESS","2018-03-19T16:34:11.148+05:30[Asia/Calcutta]","0.0","19.79"
+"Chat","Start chat with agent from proactive chat window","ERROR","2018-03-19T16:34:31.182+05:30[Asia/Calcutta]","0.0","56.79"
+"Chat","Close proactive chat window","SUCCESS","2018-03-19T16:35:28.487+05:30[Asia/Calcutta]","0.0","47.11"

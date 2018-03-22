@@ -1,0 +1,56 @@
+<story path="stories/Chat_Model/Chat.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">open chat modal</inOrderTo>
+  <asA keyword="As a">user</asA>
+  <iWantTo keyword="I want to">click chat icon</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Chat icon global header">
+<step outcome="successful">Given user is on the OCOM  page</step>
+<step outcome="successful">When the page loads</step>
+<step outcome="successful">Then chat icon must appear in global header</step>
+</scenario>
+<scenario keyword="Scenario:" title="Chat icon side wall">
+<step outcome="successful">Given user is on the OCOM  page</step>
+<step outcome="successful">When the page loads</step>
+<step outcome="successful">Then chat icon must appear on the side wall</step>
+</scenario>
+<scenario keyword="Scenario:" title="Start chat with agent from proactive chat window">
+<step outcome="successful">Given user is on the OCOM  page</step>
+<step outcome="successful">When proactive chat appears</step>
+<step outcome="successful">Then user clicks on start chat button</step>
+<step outcome="failed" keyword="FAILED">Then chat form must open<failure>net.serenitybdd.core.exceptions.SerenityManagedException: unknown error: call function result missing &apos;value&apos;
+  (Session info: chrome=65.0.3325.162)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;10.178.30.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4c379c046ae322cabbfc0d4fa367d593</failure></step>
+<failure>net.serenitybdd.core.exceptions.SerenityManagedException: unknown error: call function result missing &apos;value&apos;
+  (Session info: chrome=65.0.3325.162)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;10.178.30.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4c379c046ae322cabbfc0d4fa367d593
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(&lt;generated&gt;)
+	at newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Close proactive chat window">
+<step outcome="successful">Given user is on the OCOM  page</step>
+<step outcome="successful">When proactive chat appears</step>
+<step outcome="successful">Then user clicks x</step>
+<step outcome="successful">Then chat form must not open</step>
+</scenario>
+</story>
