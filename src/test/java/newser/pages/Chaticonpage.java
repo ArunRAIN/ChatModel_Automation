@@ -53,7 +53,7 @@ public class Chaticonpage extends PageObject
 		boolean dis = chatglobal.isDisplayed();
 		if(dis)
 		{
-			//Assert.assertTrue(true);
+			Assert.assertTrue(true);
 		}
 		else
 		{
