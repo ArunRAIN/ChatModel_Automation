@@ -360,6 +360,456 @@
               <string>Then chat form must not open</string>
             </steps>
           </scenario>
+          <scenario>
+            <title>Chat options</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user is on the OCOM  page</string>
+              <string>When the user clicks on the chat icon</string>
+              <string>Then modal must show chat options</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Start the chat with an agent</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat modal on OCOM page</string>
+              <string>When the user clicks on CTA link</string>
+              <string>Then chat forms must open</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Start a chat with an agent</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat modal on OCOM page</string>
+              <string>When the user click on CTA link</string>
+              <string>Then support options page must open</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Chat form field</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user clicked start chat</string>
+              <string>When chat form opens</string>
+              <string>Then user must view form fields</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Browser page</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat form</string>
+              <string>When user browsers the website</string>
+              <string>Then chat form must not close</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Chat form validation</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat form</string>
+              <string>When mandatory fields are not filled</string>
+              <string>Then form must not be submitted</string>
+            </steps>
+          </scenario>
         </scenarios>
         <name>Chat.story</name>
       </story>
@@ -367,7 +817,7 @@
 As a user
 I want to click chat icon</localizedNarrative>
       <allowed>true</allowed>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -461,25 +911,25 @@ I want to click chat icon</localizedNarrative>
                   <step>Given user is on the OCOM  page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-                  <durationInMillis>18685</durationInMillis>
-                  <start>1521457424237</start>
-                  <end>1521457442922</end>
+                  <durationInMillis>20042</durationInMillis>
+                  <start>1531834568501</start>
+                  <end>1531834588543</end>
                 </successful>
                 <successful>
                   <step>When the page loads</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the page loads</parametrisedStep>
-                  <durationInMillis>1969</durationInMillis>
-                  <start>1521457444772</start>
-                  <end>1521457446741</end>
+                  <durationInMillis>733</durationInMillis>
+                  <start>1531834589708</start>
+                  <end>1531834590441</end>
                 </successful>
                 <successful>
                   <step>Then chat icon must appear in global header</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then chat icon must appear in global header</parametrisedStep>
-                  <durationInMillis>1650</durationInMillis>
-                  <start>1521457448448</start>
-                  <end>1521457450098</end>
+                  <durationInMillis>939</durationInMillis>
+                  <start>1531834591176</start>
+                  <end>1531834592115</end>
                 </successful>
               </results>
             </steps>
@@ -659,25 +1109,25 @@ I want to click chat icon</localizedNarrative>
                   <step>Given user is on the OCOM  page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-                  <durationInMillis>12369</durationInMillis>
-                  <start>1521457451149</start>
-                  <end>1521457463518</end>
+                  <durationInMillis>17710</durationInMillis>
+                  <start>1531834593406</start>
+                  <end>1531834611116</end>
                 </successful>
                 <successful>
                   <step>When the page loads</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the page loads</parametrisedStep>
-                  <durationInMillis>1765</durationInMillis>
-                  <start>1521457465157</start>
-                  <end>1521457466922</end>
+                  <durationInMillis>717</durationInMillis>
+                  <start>1531834611873</start>
+                  <end>1531834612590</end>
                 </successful>
                 <successful>
                   <step>Then chat icon must appear on the side wall</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then chat icon must appear on the side wall</parametrisedStep>
-                  <durationInMillis>1614</durationInMillis>
-                  <start>1521457468516</start>
-                  <end>1521457470130</end>
+                  <durationInMillis>764</durationInMillis>
+                  <start>1531834613358</start>
+                  <end>1531834614122</end>
                 </successful>
               </results>
             </steps>
@@ -858,221 +1308,34 @@ I want to click chat icon</localizedNarrative>
                   <step>Given user is on the OCOM  page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-                  <durationInMillis>13125</durationInMillis>
-                  <start>1521457471184</start>
-                  <end>1521457484309</end>
+                  <durationInMillis>16498</durationInMillis>
+                  <start>1531834615018</start>
+                  <end>1531834631516</end>
                 </successful>
                 <successful>
                   <step>When proactive chat appears</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When proactive chat appears</parametrisedStep>
-                  <durationInMillis>24041</durationInMillis>
-                  <start>1521457485874</start>
-                  <end>1521457509915</end>
+                  <durationInMillis>27414</durationInMillis>
+                  <start>1531834632085</start>
+                  <end>1531834659499</end>
                 </successful>
                 <successful>
                   <step>Then user clicks on start chat button</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then user clicks on start chat button</parametrisedStep>
-                  <durationInMillis>3004</durationInMillis>
-                  <start>1521457512333</start>
-                  <end>1521457515337</end>
+                  <durationInMillis>1613</durationInMillis>
+                  <start>1531834660579</start>
+                  <end>1531834662192</end>
                 </successful>
-                <failed>
+                <successful>
                   <step>Then chat form must open</step>
-                  <type>FAILED</type>
-                  <throwable>
-                    <detailMessage>Then chat form must open</detailMessage>
-                    <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
-                      <detailMessage>org.openqa.selenium.WebDriverException: unknown error: call function result missing &apos;value&apos;
-  (Session info: chrome=65.0.3325.162)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;10.178.30.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailMessage>
-                      <cause class="org.openqa.selenium.WebDriverException" defined-in="java.lang.Throwable">
-                        <detailMessage>unknown error: call function result missing &apos;value&apos;
-  (Session info: chrome=65.0.3325.162)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds</detailMessage>
-                        <stackTrace>
-                          <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
-                          <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
-                          <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
-                          <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
-                          <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)</trace>
-                          <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)</trace>
-                          <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)</trace>
-                          <trace>org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)</trace>
-                          <trace>newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)</trace>
-                          <trace>newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)</trace>
-                          <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(&lt;generated&gt;)</trace>
-                          <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(&lt;generated&gt;)</trace>
-                          <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                          <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(&lt;generated&gt;)</trace>
-                          <trace>newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                          <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                        </stackTrace>
-                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                          <c class="list"/>
-                          <list/>
-                        </suppressedExceptions>
-                        <extraInfo>
-                          <entry>
-                            <string>Driver info</string>
-                            <string>org.openqa.selenium.remote.RemoteWebDriver</string>
-                          </entry>
-                          <entry>
-                            <string>Capabilities</string>
-                            <string>Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]</string>
-                          </entry>
-                          <entry>
-                            <string>Session ID</string>
-                            <string>4c379c046ae322cabbfc0d4fa367d593</string>
-                          </entry>
-                        </extraInfo>
-                      </cause>
-                      <stackTrace defined-in="java.lang.Throwable">
-                        <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(&lt;generated&gt;)</trace>
-                        <trace>newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                      </stackTrace>
-                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                        <c class="list"/>
-                        <list/>
-                      </suppressedExceptions>
-                      <detailedMessage>unknown error: call function result missing &apos;value&apos;
-  (Session info: chrome=65.0.3325.162)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;10.178.30.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
-                      <stackTrace>
-                        <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
-                        <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
-                        <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
-                        <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)</trace>
-                        <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)</trace>
-                        <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)</trace>
-                        <trace>org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)</trace>
-                        <trace>newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)</trace>
-                        <trace>newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)</trace>
-                        <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(&lt;generated&gt;)</trace>
-                        <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(&lt;generated&gt;)</trace>
-                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(&lt;generated&gt;)</trace>
-                        <trace>newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                      </stackTrace>
-                      <exceptionClass>org.openqa.selenium.WebDriverException</exceptionClass>
-                    </cause>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>e539e2f9-e9ec-4b8d-894b-620ebf06311a</uuid>
-                  </throwable>
+                  <type>SUCCESSFUL</type>
                   <parametrisedStep>Then chat form must open</parametrisedStep>
-                  <durationInMillis>11321</durationInMillis>
-                  <start>1521457516623</start>
-                  <end>1521457527944</end>
-                </failed>
+                  <durationInMillis>8528</durationInMillis>
+                  <start>1531834663328</start>
+                  <end>1531834671856</end>
+                </successful>
               </results>
             </steps>
             <afterSteps>
@@ -1159,7 +1422,7 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>FAILED</status>
+          <status>SUCCESSFUL</status>
         </performableScenario>
         <performableScenario>
           <scenario>
@@ -1253,33 +1516,33 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
                   <step>Given user is on the OCOM  page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-                  <durationInMillis>13311</durationInMillis>
-                  <start>1521457528491</start>
-                  <end>1521457541802</end>
+                  <durationInMillis>17056</durationInMillis>
+                  <start>1531834672845</start>
+                  <end>1531834689901</end>
                 </successful>
                 <successful>
                   <step>When proactive chat appears</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When proactive chat appears</parametrisedStep>
-                  <durationInMillis>24460</durationInMillis>
-                  <start>1521457543508</start>
-                  <end>1521457567968</end>
+                  <durationInMillis>27502</durationInMillis>
+                  <start>1531834690507</start>
+                  <end>1531834718009</end>
                 </successful>
                 <successful>
                   <step>Then user clicks x</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then user clicks x</parametrisedStep>
-                  <durationInMillis>1734</durationInMillis>
-                  <start>1521457569559</start>
-                  <end>1521457571293</end>
+                  <durationInMillis>1007</durationInMillis>
+                  <start>1531834718950</start>
+                  <end>1531834719957</end>
                 </successful>
                 <successful>
                   <step>Then chat form must not open</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then chat form must not open</parametrisedStep>
-                  <durationInMillis>1749</durationInMillis>
-                  <start>1521457573039</start>
-                  <end>1521457574788</end>
+                  <durationInMillis>3178</durationInMillis>
+                  <start>1531834721080</start>
+                  <end>1531834724258</end>
                 </successful>
               </results>
             </steps>
@@ -1367,15 +1630,1272 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>NOT_PERFORMED</status>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>Chat options</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user is on the OCOM  page</string>
+              <string>When the user clicks on the chat icon</string>
+              <string>Then modal must show chat options</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Chat_Model/Chat.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given user is on the OCOM  page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
+                  <durationInMillis>24790</durationInMillis>
+                  <start>1531834725290</start>
+                  <end>1531834750080</end>
+                </successful>
+                <successful>
+                  <step>When the user clicks on the chat icon</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When the user clicks on the chat icon</parametrisedStep>
+                  <durationInMillis>4007</durationInMillis>
+                  <start>1531834750887</start>
+                  <end>1531834754894</end>
+                </successful>
+                <successful>
+                  <step>Then modal must show chat options</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then modal must show chat options</parametrisedStep>
+                  <durationInMillis>4733</durationInMillis>
+                  <start>1531834755779</start>
+                  <end>1531834760512</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Chat options</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given user is on the OCOM  page</string>
+                <string>When the user clicks on the chat icon</string>
+                <string>Then modal must show chat options</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>Start the chat with an agent</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat modal on OCOM page</string>
+              <string>When the user clicks on CTA link</string>
+              <string>Then chat forms must open</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Chat_Model/Chat.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given user opened chat modal on OCOM page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given user opened chat modal on OCOM page</parametrisedStep>
+                  <durationInMillis>25653</durationInMillis>
+                  <start>1531834761347</start>
+                  <end>1531834787000</end>
+                </successful>
+                <successful>
+                  <step>When the user clicks on CTA link</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When the user clicks on CTA link</parametrisedStep>
+                  <durationInMillis>1560</durationInMillis>
+                  <start>1531834787712</start>
+                  <end>1531834789272</end>
+                </successful>
+                <successful>
+                  <step>Then chat forms must open</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then chat forms must open</parametrisedStep>
+                  <durationInMillis>9515</durationInMillis>
+                  <start>1531834790093</start>
+                  <end>1531834799608</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Start the chat with an agent</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given user opened chat modal on OCOM page</string>
+                <string>When the user clicks on CTA link</string>
+                <string>Then chat forms must open</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>Start a chat with an agent</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat modal on OCOM page</string>
+              <string>When the user click on CTA link</string>
+              <string>Then support options page must open</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Chat_Model/Chat.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given user opened chat modal on OCOM page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given user opened chat modal on OCOM page</parametrisedStep>
+                  <durationInMillis>25962</durationInMillis>
+                  <start>1531834800443</start>
+                  <end>1531834826405</end>
+                </successful>
+                <successful>
+                  <step>When the user click on CTA link</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When the user click on CTA link</parametrisedStep>
+                  <durationInMillis>3010</durationInMillis>
+                  <start>1531834827249</start>
+                  <end>1531834830259</end>
+                </successful>
+                <successful>
+                  <step>Then support options page must open</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then support options page must open</parametrisedStep>
+                  <durationInMillis>5107</durationInMillis>
+                  <start>1531834831130</start>
+                  <end>1531834836237</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Start a chat with an agent</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given user opened chat modal on OCOM page</string>
+                <string>When the user click on CTA link</string>
+                <string>Then support options page must open</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>Chat form field</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user clicked start chat</string>
+              <string>When chat form opens</string>
+              <string>Then user must view form fields</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Chat_Model/Chat.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given user clicked start chat</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given user clicked start chat</parametrisedStep>
+                  <durationInMillis>24481</durationInMillis>
+                  <start>1531834837622</start>
+                  <end>1531834862103</end>
+                </successful>
+                <successful>
+                  <step>When chat form opens</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When chat form opens</parametrisedStep>
+                  <durationInMillis>9514</durationInMillis>
+                  <start>1531834863292</start>
+                  <end>1531834872806</end>
+                </successful>
+                <successful>
+                  <step>Then user must view form fields</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then user must view form fields</parametrisedStep>
+                  <durationInMillis>4174</durationInMillis>
+                  <start>1531834872933</start>
+                  <end>1531834877107</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Chat form field</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given user clicked start chat</string>
+                <string>When chat form opens</string>
+                <string>Then user must view form fields</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>Browser page</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat form</string>
+              <string>When user browsers the website</string>
+              <string>Then chat form must not close</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Chat_Model/Chat.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given user opened chat form</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given user opened chat form</parametrisedStep>
+                  <durationInMillis>75873</durationInMillis>
+                  <start>1531834877903</start>
+                  <end>1531834953776</end>
+                </successful>
+                <successful>
+                  <step>When user browsers the website</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When user browsers the website</parametrisedStep>
+                  <durationInMillis>786</durationInMillis>
+                  <start>1531834954832</start>
+                  <end>1531834955618</end>
+                </successful>
+                <successful>
+                  <step>Then chat form must not close</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then chat form must not close</parametrisedStep>
+                  <durationInMillis>9610</durationInMillis>
+                  <start>1531834956378</start>
+                  <end>1531834965988</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Browser page</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given user opened chat form</string>
+                <string>When user browsers the website</string>
+                <string>Then chat form must not close</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>Chat form validation</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given user opened chat form</string>
+              <string>When mandatory fields are not filled</string>
+              <string>Then form must not be submitted</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Chat_Model/Chat.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given user opened chat form</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given user opened chat form</parametrisedStep>
+                  <durationInMillis>23065</durationInMillis>
+                  <start>1531834966755</start>
+                  <end>1531834989820</end>
+                </successful>
+                <successful>
+                  <step>When mandatory fields are not filled</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When mandatory fields are not filled</parametrisedStep>
+                  <durationInMillis>5576</durationInMillis>
+                  <start>1531834990532</start>
+                  <end>1531834996108</end>
+                </successful>
+                <failed>
+                  <step>Then form must not be submitted</step>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Then form must not be submitted</detailMessage>
+                    <cause class="java.lang.AssertionError">
+                      <stackTrace>
+                        <trace>org.junit.Assert.fail(Assert.java:86)</trace>
+                        <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
+                        <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
+                        <trace>newser.pages.Chaticonpage.form_not_submitted(Chaticonpage.java:282)</trace>
+                        <trace>newser.steps.Chaticonsteps.form_not_submitted(Chaticonsteps.java:119)</trace>
+                        <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$form_not_submitted$7(&lt;generated&gt;)</trace>
+                        <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.form_not_submitted(&lt;generated&gt;)</trace>
+                        <trace>newser.steps.serenity.ChaticonDefinition.Thenformmustnotbesubmitted(ChaticonDefinition.java:159)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>23faa081-ed4a-43df-b205-d5b36944a3b2</uuid>
+                  </throwable>
+                  <parametrisedStep>Then form must not be submitted</parametrisedStep>
+                  <durationInMillis>20741</durationInMillis>
+                  <start>1531834996705</start>
+                  <end>1531835017446</end>
+                </failed>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Chat form validation</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given user opened chat form</string>
+                <string>When mandatory fields are not filled</string>
+                <string>Then form must not be submitted</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>FAILED</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>151748</durationInMillis>
-        <start>1521457424080</start>
-        <end>1521457575828</end>
+        <durationInMillis>450022</durationInMillis>
+        <start>1531834568378</start>
+        <end>1531835018400</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1472,25 +2992,25 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
               <step>Given user is on the OCOM  page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-              <durationInMillis>18685</durationInMillis>
-              <start>1521457424237</start>
-              <end>1521457442922</end>
+              <durationInMillis>20042</durationInMillis>
+              <start>1531834568501</start>
+              <end>1531834588543</end>
             </successful>
             <successful>
               <step>When the page loads</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the page loads</parametrisedStep>
-              <durationInMillis>1969</durationInMillis>
-              <start>1521457444772</start>
-              <end>1521457446741</end>
+              <durationInMillis>733</durationInMillis>
+              <start>1531834589708</start>
+              <end>1531834590441</end>
             </successful>
             <successful>
               <step>Then chat icon must appear in global header</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then chat icon must appear in global header</parametrisedStep>
-              <durationInMillis>1650</durationInMillis>
-              <start>1521457448448</start>
-              <end>1521457450098</end>
+              <durationInMillis>939</durationInMillis>
+              <start>1531834591176</start>
+              <end>1531834592115</end>
             </successful>
           </results>
         </steps>
@@ -1670,25 +3190,25 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
               <step>Given user is on the OCOM  page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-              <durationInMillis>12369</durationInMillis>
-              <start>1521457451149</start>
-              <end>1521457463518</end>
+              <durationInMillis>17710</durationInMillis>
+              <start>1531834593406</start>
+              <end>1531834611116</end>
             </successful>
             <successful>
               <step>When the page loads</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the page loads</parametrisedStep>
-              <durationInMillis>1765</durationInMillis>
-              <start>1521457465157</start>
-              <end>1521457466922</end>
+              <durationInMillis>717</durationInMillis>
+              <start>1531834611873</start>
+              <end>1531834612590</end>
             </successful>
             <successful>
               <step>Then chat icon must appear on the side wall</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then chat icon must appear on the side wall</parametrisedStep>
-              <durationInMillis>1614</durationInMillis>
-              <start>1521457468516</start>
-              <end>1521457470130</end>
+              <durationInMillis>764</durationInMillis>
+              <start>1531834613358</start>
+              <end>1531834614122</end>
             </successful>
           </results>
         </steps>
@@ -1869,221 +3389,34 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
               <step>Given user is on the OCOM  page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-              <durationInMillis>13125</durationInMillis>
-              <start>1521457471184</start>
-              <end>1521457484309</end>
+              <durationInMillis>16498</durationInMillis>
+              <start>1531834615018</start>
+              <end>1531834631516</end>
             </successful>
             <successful>
               <step>When proactive chat appears</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When proactive chat appears</parametrisedStep>
-              <durationInMillis>24041</durationInMillis>
-              <start>1521457485874</start>
-              <end>1521457509915</end>
+              <durationInMillis>27414</durationInMillis>
+              <start>1531834632085</start>
+              <end>1531834659499</end>
             </successful>
             <successful>
               <step>Then user clicks on start chat button</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then user clicks on start chat button</parametrisedStep>
-              <durationInMillis>3004</durationInMillis>
-              <start>1521457512333</start>
-              <end>1521457515337</end>
+              <durationInMillis>1613</durationInMillis>
+              <start>1531834660579</start>
+              <end>1531834662192</end>
             </successful>
-            <failed>
+            <successful>
               <step>Then chat form must open</step>
-              <type>FAILED</type>
-              <throwable>
-                <detailMessage>Then chat form must open</detailMessage>
-                <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
-                  <detailMessage>org.openqa.selenium.WebDriverException: unknown error: call function result missing &apos;value&apos;
-  (Session info: chrome=65.0.3325.162)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;10.178.30.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailMessage>
-                  <cause class="org.openqa.selenium.WebDriverException" defined-in="java.lang.Throwable">
-                    <detailMessage>unknown error: call function result missing &apos;value&apos;
-  (Session info: chrome=65.0.3325.162)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds</detailMessage>
-                    <stackTrace>
-                      <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
-                      <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
-                      <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
-                      <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
-                      <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)</trace>
-                      <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)</trace>
-                      <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)</trace>
-                      <trace>org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)</trace>
-                      <trace>newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)</trace>
-                      <trace>newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)</trace>
-                      <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(&lt;generated&gt;)</trace>
-                      <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(&lt;generated&gt;)</trace>
-                      <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                      <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(&lt;generated&gt;)</trace>
-                      <trace>newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <extraInfo>
-                      <entry>
-                        <string>Driver info</string>
-                        <string>org.openqa.selenium.remote.RemoteWebDriver</string>
-                      </entry>
-                      <entry>
-                        <string>Capabilities</string>
-                        <string>Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]</string>
-                      </entry>
-                      <entry>
-                        <string>Session ID</string>
-                        <string>4c379c046ae322cabbfc0d4fa367d593</string>
-                      </entry>
-                    </extraInfo>
-                  </cause>
-                  <stackTrace defined-in="java.lang.Throwable">
-                    <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(&lt;generated&gt;)</trace>
-                    <trace>newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                  </stackTrace>
-                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                    <c class="list"/>
-                    <list/>
-                  </suppressedExceptions>
-                  <detailedMessage>unknown error: call function result missing &apos;value&apos;
-  (Session info: chrome=65.0.3325.162)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;10.178.30.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
-                  <stackTrace>
-                    <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
-                    <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
-                    <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
-                    <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
-                    <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)</trace>
-                    <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)</trace>
-                    <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)</trace>
-                    <trace>org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)</trace>
-                    <trace>newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)</trace>
-                    <trace>newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)</trace>
-                    <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(&lt;generated&gt;)</trace>
-                    <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(&lt;generated&gt;)</trace>
-                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(&lt;generated&gt;)</trace>
-                    <trace>newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                  </stackTrace>
-                  <exceptionClass>org.openqa.selenium.WebDriverException</exceptionClass>
-                </cause>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>e539e2f9-e9ec-4b8d-894b-620ebf06311a</uuid>
-              </throwable>
+              <type>SUCCESSFUL</type>
               <parametrisedStep>Then chat form must open</parametrisedStep>
-              <durationInMillis>11321</durationInMillis>
-              <start>1521457516623</start>
-              <end>1521457527944</end>
-            </failed>
+              <durationInMillis>8528</durationInMillis>
+              <start>1531834663328</start>
+              <end>1531834671856</end>
+            </successful>
           </results>
         </steps>
         <afterSteps>
@@ -2170,7 +3503,7 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>FAILED</status>
+      <status>SUCCESSFUL</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -2264,33 +3597,33 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
               <step>Given user is on the OCOM  page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
-              <durationInMillis>13311</durationInMillis>
-              <start>1521457528491</start>
-              <end>1521457541802</end>
+              <durationInMillis>17056</durationInMillis>
+              <start>1531834672845</start>
+              <end>1531834689901</end>
             </successful>
             <successful>
               <step>When proactive chat appears</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When proactive chat appears</parametrisedStep>
-              <durationInMillis>24460</durationInMillis>
-              <start>1521457543508</start>
-              <end>1521457567968</end>
+              <durationInMillis>27502</durationInMillis>
+              <start>1531834690507</start>
+              <end>1531834718009</end>
             </successful>
             <successful>
               <step>Then user clicks x</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then user clicks x</parametrisedStep>
-              <durationInMillis>1734</durationInMillis>
-              <start>1521457569559</start>
-              <end>1521457571293</end>
+              <durationInMillis>1007</durationInMillis>
+              <start>1531834718950</start>
+              <end>1531834719957</end>
             </successful>
             <successful>
               <step>Then chat form must not open</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then chat form must not open</parametrisedStep>
-              <durationInMillis>1749</durationInMillis>
-              <start>1521457573039</start>
-              <end>1521457574788</end>
+              <durationInMillis>3178</durationInMillis>
+              <start>1531834721080</start>
+              <end>1531834724258</end>
             </successful>
           </results>
         </steps>
@@ -2378,7 +3711,1264 @@ Session ID: 4c379c046ae322cabbfc0d4fa367d593</detailedMessage>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>NOT_PERFORMED</status>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>Chat options</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given user is on the OCOM  page</string>
+          <string>When the user clicks on the chat icon</string>
+          <string>Then modal must show chat options</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Chat_Model/Chat.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given user is on the OCOM  page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given user is on the OCOM  page</parametrisedStep>
+              <durationInMillis>24790</durationInMillis>
+              <start>1531834725290</start>
+              <end>1531834750080</end>
+            </successful>
+            <successful>
+              <step>When the user clicks on the chat icon</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When the user clicks on the chat icon</parametrisedStep>
+              <durationInMillis>4007</durationInMillis>
+              <start>1531834750887</start>
+              <end>1531834754894</end>
+            </successful>
+            <successful>
+              <step>Then modal must show chat options</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then modal must show chat options</parametrisedStep>
+              <durationInMillis>4733</durationInMillis>
+              <start>1531834755779</start>
+              <end>1531834760512</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Chat options</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given user is on the OCOM  page</string>
+            <string>When the user clicks on the chat icon</string>
+            <string>Then modal must show chat options</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>Start the chat with an agent</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given user opened chat modal on OCOM page</string>
+          <string>When the user clicks on CTA link</string>
+          <string>Then chat forms must open</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Chat_Model/Chat.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given user opened chat modal on OCOM page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given user opened chat modal on OCOM page</parametrisedStep>
+              <durationInMillis>25653</durationInMillis>
+              <start>1531834761347</start>
+              <end>1531834787000</end>
+            </successful>
+            <successful>
+              <step>When the user clicks on CTA link</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When the user clicks on CTA link</parametrisedStep>
+              <durationInMillis>1560</durationInMillis>
+              <start>1531834787712</start>
+              <end>1531834789272</end>
+            </successful>
+            <successful>
+              <step>Then chat forms must open</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then chat forms must open</parametrisedStep>
+              <durationInMillis>9515</durationInMillis>
+              <start>1531834790093</start>
+              <end>1531834799608</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Start the chat with an agent</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given user opened chat modal on OCOM page</string>
+            <string>When the user clicks on CTA link</string>
+            <string>Then chat forms must open</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>Start a chat with an agent</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given user opened chat modal on OCOM page</string>
+          <string>When the user click on CTA link</string>
+          <string>Then support options page must open</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Chat_Model/Chat.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given user opened chat modal on OCOM page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given user opened chat modal on OCOM page</parametrisedStep>
+              <durationInMillis>25962</durationInMillis>
+              <start>1531834800443</start>
+              <end>1531834826405</end>
+            </successful>
+            <successful>
+              <step>When the user click on CTA link</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When the user click on CTA link</parametrisedStep>
+              <durationInMillis>3010</durationInMillis>
+              <start>1531834827249</start>
+              <end>1531834830259</end>
+            </successful>
+            <successful>
+              <step>Then support options page must open</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then support options page must open</parametrisedStep>
+              <durationInMillis>5107</durationInMillis>
+              <start>1531834831130</start>
+              <end>1531834836237</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Start a chat with an agent</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given user opened chat modal on OCOM page</string>
+            <string>When the user click on CTA link</string>
+            <string>Then support options page must open</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>Chat form field</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given user clicked start chat</string>
+          <string>When chat form opens</string>
+          <string>Then user must view form fields</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Chat_Model/Chat.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given user clicked start chat</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given user clicked start chat</parametrisedStep>
+              <durationInMillis>24481</durationInMillis>
+              <start>1531834837622</start>
+              <end>1531834862103</end>
+            </successful>
+            <successful>
+              <step>When chat form opens</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When chat form opens</parametrisedStep>
+              <durationInMillis>9514</durationInMillis>
+              <start>1531834863292</start>
+              <end>1531834872806</end>
+            </successful>
+            <successful>
+              <step>Then user must view form fields</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then user must view form fields</parametrisedStep>
+              <durationInMillis>4174</durationInMillis>
+              <start>1531834872933</start>
+              <end>1531834877107</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Chat form field</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given user clicked start chat</string>
+            <string>When chat form opens</string>
+            <string>Then user must view form fields</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>Browser page</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given user opened chat form</string>
+          <string>When user browsers the website</string>
+          <string>Then chat form must not close</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Chat_Model/Chat.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given user opened chat form</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given user opened chat form</parametrisedStep>
+              <durationInMillis>75873</durationInMillis>
+              <start>1531834877903</start>
+              <end>1531834953776</end>
+            </successful>
+            <successful>
+              <step>When user browsers the website</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When user browsers the website</parametrisedStep>
+              <durationInMillis>786</durationInMillis>
+              <start>1531834954832</start>
+              <end>1531834955618</end>
+            </successful>
+            <successful>
+              <step>Then chat form must not close</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then chat form must not close</parametrisedStep>
+              <durationInMillis>9610</durationInMillis>
+              <start>1531834956378</start>
+              <end>1531834965988</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Browser page</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given user opened chat form</string>
+            <string>When user browsers the website</string>
+            <string>Then chat form must not close</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>Chat form validation</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given user opened chat form</string>
+          <string>When mandatory fields are not filled</string>
+          <string>Then form must not be submitted</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Chat_Model/Chat.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given user opened chat form</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given user opened chat form</parametrisedStep>
+              <durationInMillis>23065</durationInMillis>
+              <start>1531834966755</start>
+              <end>1531834989820</end>
+            </successful>
+            <successful>
+              <step>When mandatory fields are not filled</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When mandatory fields are not filled</parametrisedStep>
+              <durationInMillis>5576</durationInMillis>
+              <start>1531834990532</start>
+              <end>1531834996108</end>
+            </successful>
+            <failed>
+              <step>Then form must not be submitted</step>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Then form must not be submitted</detailMessage>
+                <cause class="java.lang.AssertionError">
+                  <stackTrace>
+                    <trace>org.junit.Assert.fail(Assert.java:86)</trace>
+                    <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
+                    <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
+                    <trace>newser.pages.Chaticonpage.form_not_submitted(Chaticonpage.java:282)</trace>
+                    <trace>newser.steps.Chaticonsteps.form_not_submitted(Chaticonsteps.java:119)</trace>
+                    <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$form_not_submitted$7(&lt;generated&gt;)</trace>
+                    <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.form_not_submitted(&lt;generated&gt;)</trace>
+                    <trace>newser.steps.serenity.ChaticonDefinition.Thenformmustnotbesubmitted(ChaticonDefinition.java:159)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>23faa081-ed4a-43df-b205-d5b36944a3b2</uuid>
+              </throwable>
+              <parametrisedStep>Then form must not be submitted</parametrisedStep>
+              <durationInMillis>20741</durationInMillis>
+              <start>1531834996705</start>
+              <end>1531835017446</end>
+            </failed>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Chat form validation</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given user opened chat form</string>
+            <string>When mandatory fields are not filled</string>
+            <string>Then form must not be submitted</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>FAILED</status>
     </performableScenario>
   </scenarios>
 </xref>

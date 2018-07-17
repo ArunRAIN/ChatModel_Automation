@@ -15,6 +15,7 @@ public class Chaticonsteps
     	AOpage.maximize();
     }
     
+	
 	@Step
     public void page_load()
     {
@@ -62,4 +63,68 @@ public class Chaticonsteps
     {
     	AOpage.is_chat_not_open();
     }
+	
+	@Step
+    public void click_on_chat_icon()
+    {
+    	AOpage.click_on_chat_icon();
+    }
+	
+	@Step
+    public void is_modal_displayed()
+    {
+    	AOpage.is_modal_displayed();
+    }
+	
+	@Step
+    public void click_on_start_on_modal_popup()
+    {
+    	AOpage.click_on_start_button_on_modal_popup();
+    }
+	
+	@Step
+    public void is_chat_form_display_on_modal_popup()
+    {
+    	AOpage.is_chat_form_display_on_modal_popup();
+    }
+	
+	@Step
+    public void click_on_support_option()
+    {
+    	AOpage.click_on_support_option();
+    }
+	
+	@Step
+    public void is_display_support_option()
+    {
+    	AOpage.is_display_support_options();
+    }
+	
+	@Step
+    public void is_field_display()
+    {
+    	AOpage.is_field_display();
+    }
+	
+	@Step
+    public void mandatory_field_not_filled()
+    {
+    	AOpage.mandatory_field_not_filled();
+    }
+	
+	
+	@Step
+    public void form_not_submitted()
+    {
+    	AOpage.form_not_submitted();
+    }
+	
+	
+	@Step
+    public void browse_the_website()
+    {
+    	AOpage.browse_the_website();
+    }
+
+	
 }

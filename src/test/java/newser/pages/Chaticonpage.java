@@ -1,5 +1,7 @@
 package newser.pages;
 
+import java.util.List;
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -14,15 +16,15 @@ import net.serenitybdd.core.pages.WebElementFacade;
 
 public class Chaticonpage extends PageObject
 {
-	@FindBy(xpath="//div[@class='u02tools u02li2']//span[text()='Chat']")
+	@FindBy(xpath="//div[@class='ochat_slideout']//span")
     private WebElementFacade chatglobal;
 	
 	
 	
-	@FindBy(xpath="//div[@class='ochat_slideout']//span[text()='Chat']")
+	@FindBy(xpath="//div[@class='ochat_slideout']//span")
     private WebElementFacade chatsidewall;
 	
-	@FindBy(xpath="//span[text()='Live Chat']")
+	@FindBy(xpath="//img[contains(@src,'chat.svg')]")
     private WebElementFacade chatform;
 	
 	
@@ -78,13 +80,13 @@ public class Chaticonpage extends PageObject
 	
 	public void proactive_chat_display()
 	{
-		WebElement ele1 = getDriver().findElement(By.xpath("//strong[text()='Need live help?']"));
+		
 		//waitFor("//strong[text()='Need live help?']");
 		
-		new WebDriverWait(getDriver(),40).until(ExpectedConditions.visibilityOf(ele1));
+		new WebDriverWait(getDriver(),800).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='ochat_flyout flyout-show flyout-fadein']//a[@data-lbl='proactive-chatcta']")));
 		//withTimeoutOf(40, TimeUnit.SECONDS).waitForPresenceOf(By.xpath("//strong[text()='Need live help?']"));
-		
-		boolean ele = getDriver().findElement(By.xpath("//strong[text()='Need live help?']")).isDisplayed();
+		waitABit(5000);
+		boolean ele = getDriver().findElement(By.xpath("//div[@class='ochat_flyout flyout-show flyout-fadein']//a[@data-lbl='proactive-chatcta']")).isDisplayed();
 		if(ele)
 		{
 			//Assert.assertTrue(true);
@@ -100,13 +102,13 @@ public class Chaticonpage extends PageObject
 	public void click_start_chat_button()
 	{
 		
-		getDriver().findElement(By.xpath("//a[@class='procta chatcta']")).click();
+		getDriver().findElement(By.xpath("//div[@class='ochat_flyout flyout-show flyout-fadein']//a[@data-lbl='proactive-chatcta']")).click();
 	}
 	
 	public void is_chat_form_display()
 	{
-	  waitABit(10000);
-	   WebElement ele = getDriver().findElement(By.xpath("//iframe[contains(@src,'https://sc-oal-en--stg.custhelp.com')]"));
+	  waitABit(8000);
+	   WebElement ele = getDriver().findElement(By.xpath("//iframe[@id='proactive']"));
 	   getDriver().switchTo().frame(ele);
 	   
 	   boolean dis = chatform.isDisplayed();
@@ -125,14 +127,17 @@ public class Chaticonpage extends PageObject
 	
 	public void click_X()
 	{
-		getDriver().findElement(By.id("ochat-flyoutclose")).click();
+		WebElement element = getDriver().findElement(By.id("ochat-flyoutclose"));
+		JavascriptExecutor js = (JavascriptExecutor)getDriver();
+		js.executeScript("arguments[0].click();", element);
+		//getDriver().findElement(By.id("ochat-flyoutclose")).click();
 	}
 	
 	
 	public void is_chat_not_open()
 	{
-		boolean ele = getDriver().findElement(By.xpath("//strong[text()='Need live help?']")).isDisplayed();
-		if(ele)
+		List<WebElement> ele = getDriver().findElements(By.xpath("//div[@class='ochat_flyout flyout-show flyout-fadein']//a[@data-lbl='proactive-chatcta']"));
+		if(ele.size()==1)
 		{
 			Assert.assertTrue(false);
 			
@@ -142,4 +147,146 @@ public class Chaticonpage extends PageObject
 			Assert.assertTrue(true);
 		}
 	}
+	
+	public void click_on_chat_icon()
+	{
+		waitABit(3000);
+		WebElement element = getDriver().findElement(By.xpath("//div[@class='ochat_slideout']//span"));
+		JavascriptExecutor js = (JavascriptExecutor)getDriver();
+		js.executeScript("arguments[0].click();", element);
+	}
+	
+	public void is_modal_displayed()
+	{
+		waitABit(4000);
+		boolean ele = getDriver().findElement(By.xpath("//div[@class='ochat_modalw2']")).isDisplayed();
+	    if(ele)
+	    {
+			Assert.assertTrue(true);
+			
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+	
+	}
+	
+	
+	public void click_on_start_button_on_modal_popup()
+	{
+		while(true)
+		{
+			boolean ele = getDriver().findElement(By.xpath("//div[@class='ochat_modalw2']//a[@data-lbl='chatcta']")).isEnabled();
+			if(ele)
+			{
+				//waitABit(20000);
+				WebElement element = getDriver().findElement(By.xpath("//div[@class='ochat_modalw2']//a[@data-lbl='chatcta']"));
+				JavascriptExecutor js = (JavascriptExecutor)getDriver();
+				js.executeScript("arguments[0].click();", element);
+				
+				break;
+			}
+			else
+			{
+				
+			}
+		
+		
+		}
+		
+	}
+	
+	
+	public void is_chat_form_display_on_modal_popup()
+	{
+		
+		waitABit(9000);
+		   WebElement ele = getDriver().findElement(By.xpath("//iframe[@id='chatiframe']"));
+		   getDriver().switchTo().frame(ele);
+		   
+		   boolean dis = chatform.isDisplayed();
+			if(dis)
+			{
+				Assert.assertTrue(true);
+				
+			}
+			else
+			{
+				Assert.assertTrue(false);
+			}
+	}
+	
+	public void click_on_support_option()
+	{
+	    waitABit(2000);
+		WebElement element = getDriver().findElement(By.xpath("//div[@class='ochat_modalw2']/section[@class='ochat_panel ochat_support']/a[@class='chatcta']"));
+		JavascriptExecutor js = (JavascriptExecutor)getDriver();
+		js.executeScript("arguments[0].click();", element);
+	}
+	
+	public void is_display_support_options()
+	{
+		waitABit(4000);
+		boolean ele = getDriver().findElement(By.xpath("//nav[@class='u03 u03v5 u03bttns']//h1")).isDisplayed();
+	    if(ele)
+	    {
+			Assert.assertTrue(true);
+			
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+	}
+	
+	
+	public void is_field_display()
+	{
+		waitABit(4000);
+		boolean ele = getDriver().findElement(By.xpath("//form[@id='rn_ChatLaunchForm']//select")).isDisplayed();
+		if(ele)
+	    {
+			Assert.assertTrue(true);
+			
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+	}
+	
+	public void mandatory_field_not_filled()
+	{
+		waitABit(5000);
+		WebElement ele = getDriver().findElement(By.xpath("//iframe[@id='chatiframe']"));
+		getDriver().switchTo().frame(ele);
+		WebElement element = getDriver().findElement(By.xpath("//button[@type='submit']"));
+		JavascriptExecutor js = (JavascriptExecutor)getDriver();
+		js.executeScript("arguments[0].click();", element);
+	}
+	
+	public void form_not_submitted()
+	{
+		waitABit(20000);
+		//WebElement ele1 = getDriver().findElement(By.xpath("//iframe[@id='chatiframe']"));
+		//getDriver().switchTo().frame(ele1);
+		boolean ele = getDriver().findElement(By.id("rn_ErrorLocation")).isDisplayed();
+	    if(ele)
+	    {
+			Assert.assertTrue(true);
+			
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+	}
+	
+	public void browse_the_website()
+	{
+		getDriver().findElement(By.id("txtSearch")).sendKeys("chat");
+	}
+	
+	
 }

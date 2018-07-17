@@ -36,15 +36,15 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.8],
+                ['Passing', 0.933333],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0],
+                ['Failing', 0.066667],
                 
-                ['Errors',  0.2]
+                ['Errors',  0]
             ]
         ], {
 
@@ -73,25 +73,25 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 5 tests passed' },
-                {label: '0 / 5 tests pending'},
-                {label: '0 / 5 tests not executed'},
-                {label: '0 / 5 tests failed'},
-                {label: '1 / 5 errors'}
+                {label: '28 / 30 tests passed' },
+                {label: '0 / 30 tests pending'},
+                {label: '0 / 30 tests not executed'},
+                {label: '2 / 30 tests failed'},
+                {label: '0 / 30 errors'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.764706],
+                ['Passing', 0.927928],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0],
+                ['Failing', 0.072072],
                 
-                ['Errors', 0.235294]
+                ['Errors', 0]
             ]
         ], {
 
@@ -121,11 +121,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 5 tests passed (0.764706% of all test steps)' },
-                {label: '0 / 5 tests pending'},
-                {label: '0 / 5 tests not executed'},
-                {label: '0 / 5 tests failed (0% of all test steps)'},
-                {label: '1 / 5 errors (0.235294% of all test steps)'}
+                {label: '28 / 30 tests passed (0.927928% of all test steps)' },
+                {label: '0 / 30 tests pending'},
+                {label: '0 / 30 tests not executed'},
+                {label: '2 / 30 tests failed (0.072072% of all test steps)'},
+                {label: '0 / 30 errors (0% of all test steps)'}
             ]
         });
 
@@ -192,7 +192,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-03-2018 16:36</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-07-2018 19:13</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -219,10 +219,25 @@
                                 <td style="width: 30%">browserName</td><td>chrome</td>
                             </tr>
                             <tr>
+                                <td style="width: 30%">chrome.switches</td><td>--homepage=about:blank,--disable-infobars</td>
+                            </tr>
+                            <tr>
                                 <td style="width: 30%">version</td><td></td>
                             </tr>
                             <tr>
                                 <td style="width: 30%">platform</td><td>ANY</td>
+                            </tr>
+                    </table>
+                    <h2>Driver capabilities: edge</h2>
+                    <table class="table table-striped build-info">
+                            <tr>
+                                <td style="width: 30%">browserName</td><td>MicrosoftEdge</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 30%">version</td><td></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 30%">platform</td><td>WINDOWS</td>
                             </tr>
                     </table>
                     <h2>Driver capabilities: firefox</h2>

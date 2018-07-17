@@ -440,13 +440,571 @@
               "Then user clicks x",
               "Then chat form must not open"
             ]
+          },
+          {
+            "title": "Chat options",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user is on the OCOM  page",
+              "When the user clicks on the chat icon",
+              "Then modal must show chat options"
+            ]
+          },
+          {
+            "title": "Start the chat with an agent",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat modal on OCOM page",
+              "When the user clicks on CTA link",
+              "Then chat forms must open"
+            ]
+          },
+          {
+            "title": "Start a chat with an agent",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat modal on OCOM page",
+              "When the user click on CTA link",
+              "Then support options page must open"
+            ]
+          },
+          {
+            "title": "Chat form field",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user clicked start chat",
+              "When chat form opens",
+              "Then user must view form fields"
+            ]
+          },
+          {
+            "title": "Browser page",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat form",
+              "When user browsers the website",
+              "Then chat form must not close"
+            ]
+          },
+          {
+            "title": "Chat form validation",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat form",
+              "When mandatory fields are not filled",
+              "Then form must not be submitted"
+            ]
           }
         ],
         "name": "Chat.story"
       },
       "localizedNarrative": "In order to open chat modal\nAs a user\nI want to click chat icon",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -558,25 +1116,25 @@
                   "step": "Given user is on the OCOM  page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given user is on the OCOM  page",
-                  "durationInMillis": 18685,
-                  "start": 1521457424237,
-                  "end": 1521457442922
+                  "durationInMillis": 20042,
+                  "start": 1531834568501,
+                  "end": 1531834588543
                 },
                 {
                   "step": "When the page loads",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the page loads",
-                  "durationInMillis": 1969,
-                  "start": 1521457444772,
-                  "end": 1521457446741
+                  "durationInMillis": 733,
+                  "start": 1531834589708,
+                  "end": 1531834590441
                 },
                 {
                   "step": "Then chat icon must appear in global header",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then chat icon must appear in global header",
-                  "durationInMillis": 1650,
-                  "start": 1521457448448,
-                  "end": 1521457450098
+                  "durationInMillis": 939,
+                  "start": 1531834591176,
+                  "end": 1531834592115
                 }
               ]
             },
@@ -792,25 +1350,25 @@
                   "step": "Given user is on the OCOM  page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given user is on the OCOM  page",
-                  "durationInMillis": 12369,
-                  "start": 1521457451149,
-                  "end": 1521457463518
+                  "durationInMillis": 17710,
+                  "start": 1531834593406,
+                  "end": 1531834611116
                 },
                 {
                   "step": "When the page loads",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the page loads",
-                  "durationInMillis": 1765,
-                  "start": 1521457465157,
-                  "end": 1521457466922
+                  "durationInMillis": 717,
+                  "start": 1531834611873,
+                  "end": 1531834612590
                 },
                 {
                   "step": "Then chat icon must appear on the side wall",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then chat icon must appear on the side wall",
-                  "durationInMillis": 1614,
-                  "start": 1521457468516,
-                  "end": 1521457470130
+                  "durationInMillis": 764,
+                  "start": 1531834613358,
+                  "end": 1531834614122
                 }
               ]
             },
@@ -1027,204 +1585,33 @@
                   "step": "Given user is on the OCOM  page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given user is on the OCOM  page",
-                  "durationInMillis": 13125,
-                  "start": 1521457471184,
-                  "end": 1521457484309
+                  "durationInMillis": 16498,
+                  "start": 1531834615018,
+                  "end": 1531834631516
                 },
                 {
                   "step": "When proactive chat appears",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When proactive chat appears",
-                  "durationInMillis": 24041,
-                  "start": 1521457485874,
-                  "end": 1521457509915
+                  "durationInMillis": 27414,
+                  "start": 1531834632085,
+                  "end": 1531834659499
                 },
                 {
                   "step": "Then user clicks on start chat button",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then user clicks on start chat button",
-                  "durationInMillis": 3004,
-                  "start": 1521457512333,
-                  "end": 1521457515337
+                  "durationInMillis": 1613,
+                  "start": 1531834660579,
+                  "end": 1531834662192
                 },
                 {
                   "step": "Then chat form must open",
-                  "type": "FAILED",
-                  "throwable": {
-                    "detailMessage": "Then chat form must open",
-                    "cause": {
-                      "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
-                      "detailMessage": "org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'\n  (Session info: chrome=65.0.3325.162)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 36 milliseconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'ARPANNEE-IN', ip: '10.178.30.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\arpannee\\AppData\\Local\\Temp\\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 4c379c046ae322cabbfc0d4fa367d593",
-                      "cause": {
-                        "@class": "org.openqa.selenium.WebDriverException",
-                        "@defined-in": "java.lang.Throwable",
-                        "detailMessage": "unknown error: call function result missing 'value'\n  (Session info: chrome=65.0.3325.162)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 36 milliseconds",
-                        "stackTrace": [
-                          "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
-                          "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
-                          "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
-                          "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
-                          "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)",
-                          "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)",
-                          "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)",
-                          "org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)",
-                          "newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)",
-                          "newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)",
-                          "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(<generated>)",
-                          "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(<generated>)",
-                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)",
-                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)",
-                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)",
-                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
-                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                          "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(<generated>)",
-                          "newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)",
-                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
-                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
-                          "java.lang.reflect.Method.invoke(Method.java:498)",
-                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
-                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                          "java.lang.Thread.run(Thread.java:748)"
-                        ],
-                        "suppressedExceptions": [
-                          [],
-                          []
-                        ],
-                        "extraInfo": [
-                          [
-                            "Driver info",
-                            "org.openqa.selenium.remote.RemoteWebDriver"
-                          ],
-                          [
-                            "Capabilities",
-                            "Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\arpannee\\AppData\\Local\\Temp\\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]"
-                          ],
-                          [
-                            "Session ID",
-                            "4c379c046ae322cabbfc0d4fa367d593"
-                          ]
-                        ]
-                      },
-                      "stackTrace": [
-                        "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
-                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)",
-                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
-                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(<generated>)",
-                        "newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)",
-                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
-                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
-                        "java.lang.reflect.Method.invoke(Method.java:498)",
-                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
-                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                        "java.lang.Thread.run(Thread.java:748)"
-                      ],
-                      "suppressedExceptions": [
-                        [],
-                        []
-                      ],
-                      "detailedMessage": "unknown error: call function result missing 'value'\n  (Session info: chrome=65.0.3325.162)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 36 milliseconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'ARPANNEE-IN', ip: '10.178.30.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\arpannee\\AppData\\Local\\Temp\\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 4c379c046ae322cabbfc0d4fa367d593",
-                      "stackTrace": [
-                        "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
-                        "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
-                        "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
-                        "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
-                        "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)",
-                        "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)",
-                        "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)",
-                        "org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)",
-                        "newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)",
-                        "newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)",
-                        "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(<generated>)",
-                        "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(<generated>)",
-                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)",
-                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)",
-                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)",
-                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
-                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(<generated>)",
-                        "newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)",
-                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
-                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
-                        "java.lang.reflect.Method.invoke(Method.java:498)",
-                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
-                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                        "java.lang.Thread.run(Thread.java:748)"
-                      ],
-                      "exceptionClass": "org.openqa.selenium.WebDriverException"
-                    },
-                    "stackTrace": [
-                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
-                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:748)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "e539e2f9-e9ec-4b8d-894b-620ebf06311a"
-                  },
+                  "type": "SUCCESSFUL",
                   "parametrisedStep": "Then chat form must open",
-                  "durationInMillis": 11321,
-                  "start": 1521457516623,
-                  "end": 1521457527944
+                  "durationInMillis": 8528,
+                  "start": 1531834663328,
+                  "end": 1531834671856
                 }
               ]
             },
@@ -1330,7 +1717,7 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "FAILED"
+          "status": "SUCCESSFUL"
         },
         {
           "scenario": {
@@ -1442,33 +1829,33 @@
                   "step": "Given user is on the OCOM  page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given user is on the OCOM  page",
-                  "durationInMillis": 13311,
-                  "start": 1521457528491,
-                  "end": 1521457541802
+                  "durationInMillis": 17056,
+                  "start": 1531834672845,
+                  "end": 1531834689901
                 },
                 {
                   "step": "When proactive chat appears",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When proactive chat appears",
-                  "durationInMillis": 24460,
-                  "start": 1521457543508,
-                  "end": 1521457567968
+                  "durationInMillis": 27502,
+                  "start": 1531834690507,
+                  "end": 1531834718009
                 },
                 {
                   "step": "Then user clicks x",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then user clicks x",
-                  "durationInMillis": 1734,
-                  "start": 1521457569559,
-                  "end": 1521457571293
+                  "durationInMillis": 1007,
+                  "start": 1531834718950,
+                  "end": 1531834719957
                 },
                 {
                   "step": "Then chat form must not open",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then chat form must not open",
-                  "durationInMillis": 1749,
-                  "start": 1521457573039,
-                  "end": 1521457574788
+                  "durationInMillis": 3178,
+                  "start": 1531834721080,
+                  "end": 1531834724258
                 }
               ]
             },
@@ -1574,15 +1961,1489 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "NOT_PERFORMED"
+          "status": "SUCCESSFUL"
+        },
+        {
+          "scenario": {
+            "title": "Chat options",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user is on the OCOM  page",
+              "When the user clicks on the chat icon",
+              "Then modal must show chat options"
+            ]
+          },
+          "storyPath": "stories/Chat_Model/Chat.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given user is on the OCOM  page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given user is on the OCOM  page",
+                  "durationInMillis": 24790,
+                  "start": 1531834725290,
+                  "end": 1531834750080
+                },
+                {
+                  "step": "When the user clicks on the chat icon",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When the user clicks on the chat icon",
+                  "durationInMillis": 4007,
+                  "start": 1531834750887,
+                  "end": 1531834754894
+                },
+                {
+                  "step": "Then modal must show chat options",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then modal must show chat options",
+                  "durationInMillis": 4733,
+                  "start": 1531834755779,
+                  "end": 1531834760512
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Chat options",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given user is on the OCOM  page",
+                "When the user clicks on the chat icon",
+                "Then modal must show chat options"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        },
+        {
+          "scenario": {
+            "title": "Start the chat with an agent",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat modal on OCOM page",
+              "When the user clicks on CTA link",
+              "Then chat forms must open"
+            ]
+          },
+          "storyPath": "stories/Chat_Model/Chat.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given user opened chat modal on OCOM page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given user opened chat modal on OCOM page",
+                  "durationInMillis": 25653,
+                  "start": 1531834761347,
+                  "end": 1531834787000
+                },
+                {
+                  "step": "When the user clicks on CTA link",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When the user clicks on CTA link",
+                  "durationInMillis": 1560,
+                  "start": 1531834787712,
+                  "end": 1531834789272
+                },
+                {
+                  "step": "Then chat forms must open",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then chat forms must open",
+                  "durationInMillis": 9515,
+                  "start": 1531834790093,
+                  "end": 1531834799608
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Start the chat with an agent",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given user opened chat modal on OCOM page",
+                "When the user clicks on CTA link",
+                "Then chat forms must open"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        },
+        {
+          "scenario": {
+            "title": "Start a chat with an agent",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat modal on OCOM page",
+              "When the user click on CTA link",
+              "Then support options page must open"
+            ]
+          },
+          "storyPath": "stories/Chat_Model/Chat.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given user opened chat modal on OCOM page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given user opened chat modal on OCOM page",
+                  "durationInMillis": 25962,
+                  "start": 1531834800443,
+                  "end": 1531834826405
+                },
+                {
+                  "step": "When the user click on CTA link",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When the user click on CTA link",
+                  "durationInMillis": 3010,
+                  "start": 1531834827249,
+                  "end": 1531834830259
+                },
+                {
+                  "step": "Then support options page must open",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then support options page must open",
+                  "durationInMillis": 5107,
+                  "start": 1531834831130,
+                  "end": 1531834836237
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Start a chat with an agent",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given user opened chat modal on OCOM page",
+                "When the user click on CTA link",
+                "Then support options page must open"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        },
+        {
+          "scenario": {
+            "title": "Chat form field",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user clicked start chat",
+              "When chat form opens",
+              "Then user must view form fields"
+            ]
+          },
+          "storyPath": "stories/Chat_Model/Chat.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given user clicked start chat",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given user clicked start chat",
+                  "durationInMillis": 24481,
+                  "start": 1531834837622,
+                  "end": 1531834862103
+                },
+                {
+                  "step": "When chat form opens",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When chat form opens",
+                  "durationInMillis": 9514,
+                  "start": 1531834863292,
+                  "end": 1531834872806
+                },
+                {
+                  "step": "Then user must view form fields",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then user must view form fields",
+                  "durationInMillis": 4174,
+                  "start": 1531834872933,
+                  "end": 1531834877107
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Chat form field",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given user clicked start chat",
+                "When chat form opens",
+                "Then user must view form fields"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        },
+        {
+          "scenario": {
+            "title": "Browser page",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat form",
+              "When user browsers the website",
+              "Then chat form must not close"
+            ]
+          },
+          "storyPath": "stories/Chat_Model/Chat.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given user opened chat form",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given user opened chat form",
+                  "durationInMillis": 75873,
+                  "start": 1531834877903,
+                  "end": 1531834953776
+                },
+                {
+                  "step": "When user browsers the website",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When user browsers the website",
+                  "durationInMillis": 786,
+                  "start": 1531834954832,
+                  "end": 1531834955618
+                },
+                {
+                  "step": "Then chat form must not close",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then chat form must not close",
+                  "durationInMillis": 9610,
+                  "start": 1531834956378,
+                  "end": 1531834965988
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Browser page",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given user opened chat form",
+                "When user browsers the website",
+                "Then chat form must not close"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        },
+        {
+          "scenario": {
+            "title": "Chat form validation",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given user opened chat form",
+              "When mandatory fields are not filled",
+              "Then form must not be submitted"
+            ]
+          },
+          "storyPath": "stories/Chat_Model/Chat.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given user opened chat form",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given user opened chat form",
+                  "durationInMillis": 23065,
+                  "start": 1531834966755,
+                  "end": 1531834989820
+                },
+                {
+                  "step": "When mandatory fields are not filled",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When mandatory fields are not filled",
+                  "durationInMillis": 5576,
+                  "start": 1531834990532,
+                  "end": 1531834996108
+                },
+                {
+                  "step": "Then form must not be submitted",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Then form must not be submitted",
+                    "cause": {
+                      "@class": "java.lang.AssertionError",
+                      "stackTrace": [
+                        "org.junit.Assert.fail(Assert.java:86)",
+                        "org.junit.Assert.assertTrue(Assert.java:41)",
+                        "org.junit.Assert.assertTrue(Assert.java:52)",
+                        "newser.pages.Chaticonpage.form_not_submitted(Chaticonpage.java:282)",
+                        "newser.steps.Chaticonsteps.form_not_submitted(Chaticonsteps.java:119)",
+                        "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$form_not_submitted$7(<generated>)",
+                        "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.form_not_submitted(<generated>)",
+                        "newser.steps.serenity.ChaticonDefinition.Thenformmustnotbesubmitted(ChaticonDefinition.java:159)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:748)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:748)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "23faa081-ed4a-43df-b205-d5b36944a3b2"
+                  },
+                  "parametrisedStep": "Then form must not be submitted",
+                  "durationInMillis": 20741,
+                  "start": 1531834996705,
+                  "end": 1531835017446
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Chat form validation",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given user opened chat form",
+                "When mandatory fields are not filled",
+                "Then form must not be submitted"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 151748,
-        "start": 1521457424080,
-        "end": 1521457575828
+        "durationInMillis": 450022,
+        "start": 1531834568378,
+        "end": 1531835018400
       },
       "givenStory": false
     }
@@ -1697,25 +3558,25 @@
               "step": "Given user is on the OCOM  page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given user is on the OCOM  page",
-              "durationInMillis": 18685,
-              "start": 1521457424237,
-              "end": 1521457442922
+              "durationInMillis": 20042,
+              "start": 1531834568501,
+              "end": 1531834588543
             },
             {
               "step": "When the page loads",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the page loads",
-              "durationInMillis": 1969,
-              "start": 1521457444772,
-              "end": 1521457446741
+              "durationInMillis": 733,
+              "start": 1531834589708,
+              "end": 1531834590441
             },
             {
               "step": "Then chat icon must appear in global header",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then chat icon must appear in global header",
-              "durationInMillis": 1650,
-              "start": 1521457448448,
-              "end": 1521457450098
+              "durationInMillis": 939,
+              "start": 1531834591176,
+              "end": 1531834592115
             }
           ]
         },
@@ -1931,25 +3792,25 @@
               "step": "Given user is on the OCOM  page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given user is on the OCOM  page",
-              "durationInMillis": 12369,
-              "start": 1521457451149,
-              "end": 1521457463518
+              "durationInMillis": 17710,
+              "start": 1531834593406,
+              "end": 1531834611116
             },
             {
               "step": "When the page loads",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the page loads",
-              "durationInMillis": 1765,
-              "start": 1521457465157,
-              "end": 1521457466922
+              "durationInMillis": 717,
+              "start": 1531834611873,
+              "end": 1531834612590
             },
             {
               "step": "Then chat icon must appear on the side wall",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then chat icon must appear on the side wall",
-              "durationInMillis": 1614,
-              "start": 1521457468516,
-              "end": 1521457470130
+              "durationInMillis": 764,
+              "start": 1531834613358,
+              "end": 1531834614122
             }
           ]
         },
@@ -2166,204 +4027,33 @@
               "step": "Given user is on the OCOM  page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given user is on the OCOM  page",
-              "durationInMillis": 13125,
-              "start": 1521457471184,
-              "end": 1521457484309
+              "durationInMillis": 16498,
+              "start": 1531834615018,
+              "end": 1531834631516
             },
             {
               "step": "When proactive chat appears",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When proactive chat appears",
-              "durationInMillis": 24041,
-              "start": 1521457485874,
-              "end": 1521457509915
+              "durationInMillis": 27414,
+              "start": 1531834632085,
+              "end": 1531834659499
             },
             {
               "step": "Then user clicks on start chat button",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then user clicks on start chat button",
-              "durationInMillis": 3004,
-              "start": 1521457512333,
-              "end": 1521457515337
+              "durationInMillis": 1613,
+              "start": 1531834660579,
+              "end": 1531834662192
             },
             {
               "step": "Then chat form must open",
-              "type": "FAILED",
-              "throwable": {
-                "detailMessage": "Then chat form must open",
-                "cause": {
-                  "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
-                  "detailMessage": "org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'\n  (Session info: chrome=65.0.3325.162)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 36 milliseconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'ARPANNEE-IN', ip: '10.178.30.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\arpannee\\AppData\\Local\\Temp\\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 4c379c046ae322cabbfc0d4fa367d593",
-                  "cause": {
-                    "@class": "org.openqa.selenium.WebDriverException",
-                    "@defined-in": "java.lang.Throwable",
-                    "detailMessage": "unknown error: call function result missing 'value'\n  (Session info: chrome=65.0.3325.162)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 36 milliseconds",
-                    "stackTrace": [
-                      "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
-                      "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
-                      "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
-                      "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
-                      "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)",
-                      "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)",
-                      "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)",
-                      "org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)",
-                      "newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)",
-                      "newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)",
-                      "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(<generated>)",
-                      "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(<generated>)",
-                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)",
-                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)",
-                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)",
-                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
-                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                      "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(<generated>)",
-                      "newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)",
-                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
-                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
-                      "java.lang.reflect.Method.invoke(Method.java:498)",
-                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
-                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:748)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "extraInfo": [
-                      [
-                        "Driver info",
-                        "org.openqa.selenium.remote.RemoteWebDriver"
-                      ],
-                      [
-                        "Capabilities",
-                        "Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\arpannee\\AppData\\Local\\Temp\\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]"
-                      ],
-                      [
-                        "Session ID",
-                        "4c379c046ae322cabbfc0d4fa367d593"
-                      ]
-                    ]
-                  },
-                  "stackTrace": [
-                    "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
-                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)",
-                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
-                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(<generated>)",
-                    "newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)",
-                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
-                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
-                    "java.lang.reflect.Method.invoke(Method.java:498)",
-                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
-                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                    "java.lang.Thread.run(Thread.java:748)"
-                  ],
-                  "suppressedExceptions": [
-                    [],
-                    []
-                  ],
-                  "detailedMessage": "unknown error: call function result missing 'value'\n  (Session info: chrome=65.0.3325.162)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 36 milliseconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'ARPANNEE-IN', ip: '10.178.30.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\arpannee\\AppData\\Local\\Temp\\scoped_dir1744_16606}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.162, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 4c379c046ae322cabbfc0d4fa367d593",
-                  "stackTrace": [
-                    "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
-                    "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
-                    "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
-                    "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
-                    "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)",
-                    "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)",
-                    "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)",
-                    "org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:980)",
-                    "newser.pages.Chaticonpage.is_chat_form_display(Chaticonpage.java:114)",
-                    "newser.steps.Chaticonsteps.is_chat_form_display(Chaticonsteps.java:51)",
-                    "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$is_chat_form_display$5(<generated>)",
-                    "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(<generated>)",
-                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)",
-                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)",
-                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)",
-                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
-                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.is_chat_form_display(<generated>)",
-                    "newser.steps.serenity.ChaticonDefinition.Thenchatformmustopen(ChaticonDefinition.java:57)",
-                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
-                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
-                    "java.lang.reflect.Method.invoke(Method.java:498)",
-                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
-                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                    "java.lang.Thread.run(Thread.java:748)"
-                  ],
-                  "exceptionClass": "org.openqa.selenium.WebDriverException"
-                },
-                "stackTrace": [
-                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
-                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:748)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "e539e2f9-e9ec-4b8d-894b-620ebf06311a"
-              },
+              "type": "SUCCESSFUL",
               "parametrisedStep": "Then chat form must open",
-              "durationInMillis": 11321,
-              "start": 1521457516623,
-              "end": 1521457527944
+              "durationInMillis": 8528,
+              "start": 1531834663328,
+              "end": 1531834671856
             }
           ]
         },
@@ -2469,7 +4159,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "FAILED"
+      "status": "SUCCESSFUL"
     },
     {
       "scenario": {
@@ -2581,33 +4271,33 @@
               "step": "Given user is on the OCOM  page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given user is on the OCOM  page",
-              "durationInMillis": 13311,
-              "start": 1521457528491,
-              "end": 1521457541802
+              "durationInMillis": 17056,
+              "start": 1531834672845,
+              "end": 1531834689901
             },
             {
               "step": "When proactive chat appears",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When proactive chat appears",
-              "durationInMillis": 24460,
-              "start": 1521457543508,
-              "end": 1521457567968
+              "durationInMillis": 27502,
+              "start": 1531834690507,
+              "end": 1531834718009
             },
             {
               "step": "Then user clicks x",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then user clicks x",
-              "durationInMillis": 1734,
-              "start": 1521457569559,
-              "end": 1521457571293
+              "durationInMillis": 1007,
+              "start": 1531834718950,
+              "end": 1531834719957
             },
             {
               "step": "Then chat form must not open",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then chat form must not open",
-              "durationInMillis": 1749,
-              "start": 1521457573039,
-              "end": 1521457574788
+              "durationInMillis": 3178,
+              "start": 1531834721080,
+              "end": 1531834724258
             }
           ]
         },
@@ -2713,7 +4403,1481 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "NOT_PERFORMED"
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Chat options",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given user is on the OCOM  page",
+          "When the user clicks on the chat icon",
+          "Then modal must show chat options"
+        ]
+      },
+      "storyPath": "stories/Chat_Model/Chat.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given user is on the OCOM  page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given user is on the OCOM  page",
+              "durationInMillis": 24790,
+              "start": 1531834725290,
+              "end": 1531834750080
+            },
+            {
+              "step": "When the user clicks on the chat icon",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When the user clicks on the chat icon",
+              "durationInMillis": 4007,
+              "start": 1531834750887,
+              "end": 1531834754894
+            },
+            {
+              "step": "Then modal must show chat options",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then modal must show chat options",
+              "durationInMillis": 4733,
+              "start": 1531834755779,
+              "end": 1531834760512
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Chat options",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given user is on the OCOM  page",
+            "When the user clicks on the chat icon",
+            "Then modal must show chat options"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Start the chat with an agent",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given user opened chat modal on OCOM page",
+          "When the user clicks on CTA link",
+          "Then chat forms must open"
+        ]
+      },
+      "storyPath": "stories/Chat_Model/Chat.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given user opened chat modal on OCOM page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given user opened chat modal on OCOM page",
+              "durationInMillis": 25653,
+              "start": 1531834761347,
+              "end": 1531834787000
+            },
+            {
+              "step": "When the user clicks on CTA link",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When the user clicks on CTA link",
+              "durationInMillis": 1560,
+              "start": 1531834787712,
+              "end": 1531834789272
+            },
+            {
+              "step": "Then chat forms must open",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then chat forms must open",
+              "durationInMillis": 9515,
+              "start": 1531834790093,
+              "end": 1531834799608
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Start the chat with an agent",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given user opened chat modal on OCOM page",
+            "When the user clicks on CTA link",
+            "Then chat forms must open"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Start a chat with an agent",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given user opened chat modal on OCOM page",
+          "When the user click on CTA link",
+          "Then support options page must open"
+        ]
+      },
+      "storyPath": "stories/Chat_Model/Chat.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given user opened chat modal on OCOM page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given user opened chat modal on OCOM page",
+              "durationInMillis": 25962,
+              "start": 1531834800443,
+              "end": 1531834826405
+            },
+            {
+              "step": "When the user click on CTA link",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When the user click on CTA link",
+              "durationInMillis": 3010,
+              "start": 1531834827249,
+              "end": 1531834830259
+            },
+            {
+              "step": "Then support options page must open",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then support options page must open",
+              "durationInMillis": 5107,
+              "start": 1531834831130,
+              "end": 1531834836237
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Start a chat with an agent",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given user opened chat modal on OCOM page",
+            "When the user click on CTA link",
+            "Then support options page must open"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Chat form field",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given user clicked start chat",
+          "When chat form opens",
+          "Then user must view form fields"
+        ]
+      },
+      "storyPath": "stories/Chat_Model/Chat.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given user clicked start chat",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given user clicked start chat",
+              "durationInMillis": 24481,
+              "start": 1531834837622,
+              "end": 1531834862103
+            },
+            {
+              "step": "When chat form opens",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When chat form opens",
+              "durationInMillis": 9514,
+              "start": 1531834863292,
+              "end": 1531834872806
+            },
+            {
+              "step": "Then user must view form fields",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then user must view form fields",
+              "durationInMillis": 4174,
+              "start": 1531834872933,
+              "end": 1531834877107
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Chat form field",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given user clicked start chat",
+            "When chat form opens",
+            "Then user must view form fields"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Browser page",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given user opened chat form",
+          "When user browsers the website",
+          "Then chat form must not close"
+        ]
+      },
+      "storyPath": "stories/Chat_Model/Chat.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given user opened chat form",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given user opened chat form",
+              "durationInMillis": 75873,
+              "start": 1531834877903,
+              "end": 1531834953776
+            },
+            {
+              "step": "When user browsers the website",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When user browsers the website",
+              "durationInMillis": 786,
+              "start": 1531834954832,
+              "end": 1531834955618
+            },
+            {
+              "step": "Then chat form must not close",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then chat form must not close",
+              "durationInMillis": 9610,
+              "start": 1531834956378,
+              "end": 1531834965988
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Browser page",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given user opened chat form",
+            "When user browsers the website",
+            "Then chat form must not close"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Chat form validation",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given user opened chat form",
+          "When mandatory fields are not filled",
+          "Then form must not be submitted"
+        ]
+      },
+      "storyPath": "stories/Chat_Model/Chat.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given user opened chat form",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given user opened chat form",
+              "durationInMillis": 23065,
+              "start": 1531834966755,
+              "end": 1531834989820
+            },
+            {
+              "step": "When mandatory fields are not filled",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When mandatory fields are not filled",
+              "durationInMillis": 5576,
+              "start": 1531834990532,
+              "end": 1531834996108
+            },
+            {
+              "step": "Then form must not be submitted",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Then form must not be submitted",
+                "cause": {
+                  "@class": "java.lang.AssertionError",
+                  "stackTrace": [
+                    "org.junit.Assert.fail(Assert.java:86)",
+                    "org.junit.Assert.assertTrue(Assert.java:41)",
+                    "org.junit.Assert.assertTrue(Assert.java:52)",
+                    "newser.pages.Chaticonpage.form_not_submitted(Chaticonpage.java:282)",
+                    "newser.steps.Chaticonsteps.form_not_submitted(Chaticonsteps.java:119)",
+                    "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.CGLIB$form_not_submitted$7(<generated>)",
+                    "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f$$FastClassByCGLIB$$4f9912e5.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "newser.steps.Chaticonsteps$$EnhancerByCGLIB$$aff0236f.form_not_submitted(<generated>)",
+                    "newser.steps.serenity.ChaticonDefinition.Thenformmustnotbesubmitted(ChaticonDefinition.java:159)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:748)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:748)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "23faa081-ed4a-43df-b205-d5b36944a3b2"
+              },
+              "parametrisedStep": "Then form must not be submitted",
+              "durationInMillis": 20741,
+              "start": 1531834996705,
+              "end": 1531835017446
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Chat form validation",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given user opened chat form",
+            "When mandatory fields are not filled",
+            "Then form must not be submitted"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "FAILED"
     }
   ]
 }}
