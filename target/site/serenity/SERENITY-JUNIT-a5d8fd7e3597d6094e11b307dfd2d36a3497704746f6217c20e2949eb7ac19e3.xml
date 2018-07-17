@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Chat" skipped="0" tests="10" time="306.21" timestamp="2018-07-17T17:55:37.165+05:30[Asia/Calcutta]"><testcase name="Chat icon global header"/><testcase name="Chat icon side wall"/><testcase name="Start chat with agent from proactive chat window"/><testcase name="Close proactive chat window"/><testcase name="Chat options"/><testcase name="Start the chat with an agent"/><testcase name="Start a chat with an agent"/><testcase name="Chat form field"/><testcase name="Browser page"/><testcase name="Chat form validation"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+newser.pages.Chaticonpage.form_not_submitted(Chaticonpage.java:282)&#13;
+newser.steps.Chaticonsteps.form_not_submitted(Chaticonsteps.java:119)&#13;
+newser.steps.serenity.ChaticonDefinition.Thenformmustnotbesubmitted(ChaticonDefinition.java:159)&#13;
+</system-err></testcase></testsuite>
